@@ -1,0 +1,61 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>K-Nearest Neighbors</th>
+      <th>Support Vector Classifier (Gaussian Kernel)</th>
+      <th>Support Vector Classifier (Polynomial Kernel)</th>
+      <th>Decision Tree</th>
+      <th>Random Forest</th>
+      <th>Deep Neural Network (Sigmoid)</th>
+      <th>Deep Neural Network (ReLu)</th>
+      <th>Best Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Accuracy</th>
+      <td>0.967101</td>
+      <td>0.968551</td>
+      <td>0.968571</td>
+      <td>0.947122</td>
+      <td>0.964265</td>
+      <td>0.960000</td>
+      <td>0.958571</td>
+      <td>Support Vector Classifier (Polynomial Kernel)</td>
+    </tr>
+    <tr>
+      <th>Precision</th>
+      <td>0.948955</td>
+      <td>0.942284</td>
+      <td>0.954284</td>
+      <td>0.924364</td>
+      <td>0.946092</td>
+      <td>0.956766</td>
+      <td>0.956173</td>
+      <td>Deep Neural Network (Sigmoid)</td>
+    </tr>
+    <tr>
+      <th>Recall</th>
+      <td>0.958500</td>
+      <td>0.971000</td>
+      <td>0.958667</td>
+      <td>0.925333</td>
+      <td>0.954333</td>
+      <td>0.929333</td>
+      <td>0.925167</td>
+      <td>Support Vector Classifier (Gaussian Kernel)</td>
+    </tr>
+    <tr>
+      <th>F1 Score</th>
+      <td>0.952607</td>
+      <td>0.955718</td>
+      <td>0.955188</td>
+      <td>0.922715</td>
+      <td>0.948890</td>
+      <td>0.940392</td>
+      <td>0.937894</td>
+      <td>Support Vector Classifier (Gaussian Kernel)</td>
+    </tr>
+  </tbody>
+</table>
